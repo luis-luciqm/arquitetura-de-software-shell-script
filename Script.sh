@@ -23,17 +23,17 @@
         echo "Resultado: $[n1+n2]"
     fi
 
-    if [ $op == 2 ] 
+    if [ $op -eq 2 ] 
     then
         echo "Resultado: $[n1*n2]"
     fi
 
-    if [ $op == '3' ] 
+    if [ $op -eq 3 ] 
     then
         echo "Resultado: $[n1-n2]"
     fi
 
-    if [ $op == 4 ] 
+    if [ $op -eq 4 ] 
     then
         if [ $n2 != 0 ] 
         then
