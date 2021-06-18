@@ -42,8 +42,3 @@
             echo "Impossivel Dividir por Zero!"
         fi
     fi
-
-
-
-
-
